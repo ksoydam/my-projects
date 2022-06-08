@@ -78,7 +78,7 @@ Resources:
           yum install python3 -y 
           pip3 install flask
           cd /home/ec2-user
-          FOLDER="https://raw.githubusercontent.com/ksoydam/my-projects/master/Project-001-Roman-Numerals-Converter"
+          FOLDER="https://raw.githubusercontent.com/ksoydam/my-projects/main/Project-001-Roman-Numerals-Converter/app.py"
           wget ${FOLDER}/app.py
           mkdir templates && cd templates
           wget ${FOLDER}/templates/index.html
