@@ -139,13 +139,13 @@ Resources:
       DBClusterIdentifier: phonebook-app-db3
       DBInstanceClass: db.t2.micro
       DBInstanceIdentifier: phonebook-app-db3
-      DBName: clarusway_phonebook
+      DBName: Soydam_phonebook
       DBSecurityGroups: 
         - !Ref MyDBSecurityGroup
       Engine: MySQL
       EngineVersion: 8.0.19
       MasterUsername: admin
-      MasterUserPassword: Clarusway_1
+      MasterUserPassword: Soydam_1
       Port: 3306
       PubliclyAccessible: true
 
@@ -157,5 +157,3 @@ Outputs:
       - ALBAddress: !GetAtt ApplicationLoadBalancer.DNSName
     Description: Phonebook Application Load Balancer URL
   
-  
-Outputs:
