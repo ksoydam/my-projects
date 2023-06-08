@@ -42,7 +42,7 @@ Resources:
            SourceSecurityGroupId: !GetAtt ALBSecurityGroup.GroupId
       VpcId: !Ref MyVPC
 
-  LogicalID:
+  WebServerLT:
     Type: AWS::EC2::LaunchTemplate
     Properties:
       LaunchTemplateData:
